@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #5D5C61;
     color: #ffffff;
     text-align: center;
@@ -18,7 +18,7 @@ body{
     margin: auto;
 }
 
-div{
+div {
     background-color: #7395ae;
     width: 100%;
     padding: 20px;
@@ -26,16 +26,15 @@ div{
     border: 3px solid black;
 }
 
-img{
+img {
     width: 600px;
     height: 400px;
     padding: 10px;
     margin: auto;
-    
 }
 
 table, th, td {
-    border: 2px solid ;
+    border: 2px solid;
     border-collapse: collapse;
     padding: 10px;
     background-color: #ffffff;
@@ -43,7 +42,11 @@ table, th, td {
     margin: auto;
     table-layout: fixed;
     color: black;
-    width: 100%
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
 th, td {
@@ -57,7 +60,7 @@ table img {
 }
 
 th {
-    background-color:#938e93 ;
+    background-color: #938e93;
     color: white;
 }
 
@@ -65,7 +68,7 @@ caption {
     color: #ffffff;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-size: x-large;
 }
 
@@ -82,4 +85,22 @@ footer {
     text-align: center;
 }
 
+@media only screen and (max-width: 850px) {
+    table {
+        width: 90%;
+        font-size: 0.7rem;
+    }
 
+    table img {
+        width: 100%;
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+    }
+    .container {
+        width: 100%;
+    }
+}
