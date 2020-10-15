@@ -34,7 +34,6 @@ img{
     
 }
 
-
 table, th, td {
     border: 2px solid ;
     border-collapse: collapse;
@@ -42,9 +41,9 @@ table, th, td {
     background-color: #ffffff;
     border-color: black;
     margin: auto;
+    table-layout: fixed;
     color: black;
     width: 100%
-    table-layout: fixed;
 }
 
 th, td {
@@ -82,4 +81,5 @@ footer {
     background-color: #5D5C61;
     text-align: center;
 }
+
 
